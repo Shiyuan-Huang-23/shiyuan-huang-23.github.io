@@ -1,3 +1,32 @@
-body {
+* {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
   text-align: center;
+  width: 100vw;
+}
+
+#main-descrip {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 3em;
+}
+
+#main-name {
+  font-size: 5em;
+  margin-bottom: 0;
+}
+
+.main-icon:hover {
+  color: #87cc97;
+}
+
+ion-icon {
+  font-size: 3em;
 }
